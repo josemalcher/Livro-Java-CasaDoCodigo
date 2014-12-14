@@ -72,11 +72,11 @@ Control + F11 - Executar o código
 
 Para saber mais sobre o Eclipse:
 
-(Eclipse Users - Documentação)(https://www.eclipse.org/users/)
+[Eclipse Users - Documentação](https://www.eclipse.org/users/)
 
-(As três principais teclas de atalho do Eclipse)[http://blog.caelum.com.br/as-tres-principais-teclas-de-atalho-do-eclipse/]
+[As três principais teclas de atalho do Eclipse](http://blog.caelum.com.br/as-tres-principais-teclas-de-atalho-do-eclipse/)
 
-(Teclas de atalho essenciais no Eclipse)[http://udgwebdev.com/teclas-de-atalho-essenciais-no-eclipse/]
+[Teclas de atalho essenciais no Eclipse](http://udgwebdev.com/teclas-de-atalho-essenciais-no-eclipse/)
 
 ##### Códigos do Livro e Grupo
 [GitHub](https://github.com/Turini/livro-oo)
@@ -84,29 +84,29 @@ Para saber mais sobre o Eclipse:
 [Google Grupo](https://groups.google.com/d/forum/livro-java-oo)
 
 
-### 2 - Variáveis e tipos primitivos
+#### 2 - Variáveis e tipos primitivos
 
-### 3 - Variáveis e tipos primitivos
+#### 3 - Variáveis e tipos primitivos
 
-### 4 - Encapsulamento
+#### 4 - Encapsulamento
 
-### 5 - Herança e polimorfismo
+#### 5 - Herança e polimorfismo
 
-### 6 - Classe abstrata
+#### 6 - Classe abstrata
 
-### 7 - Interface
+#### 7 - Interface
 
-### 8 - Pacotes
+#### 8 - Pacotes
 
-### 9 - Arrays e exception
+#### 9 - Arrays e exception
 
-### 10 - Conhecendo a API
+#### 10 - Conhecendo a API
 
-### 11 - Collection Framework
+#### 11 - Collection Framework
 
-### 12 - Streams e novidades do Java 8
+#### 12 - Streams e novidades do Java 8
 
-### 13 - Um pouco da história do Java
+#### 13 - Um pouco da história do Java
 
-### 14 - Continuando seus estudos
+#### 14 - Continuando seus estudos
 

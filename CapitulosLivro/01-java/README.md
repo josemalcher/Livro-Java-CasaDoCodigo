@@ -29,12 +29,31 @@ Passagem de parámetros:
 Terminal
 $ java MeuPrimeiroPrograma Java Stelio
 */
-
-public static void main(String[] args){
-  System.out.println("O primeiro de muitos códigos escritos em" + args[0] + " pelo " + args[1] " ! " );
-}
+	public static void main(String[] args){
+		/*
+		 * Executar diretamente no terminal
+		 * javac MeuPrimeiroPrograma.java
+		 * java MeuPrimeiroPrograma Java Jose
+		 * 
+		*/		
+		  System.out.println("O primeiro de muitos códigos escritos em" + args[0] + " pelo " + args[1] + " ! " );
+		}
 ```
+
 [Site da comunidade Java Brasil para tirar dúvidas](http://guj.com.br)
+
+```java
+public static void main(String[] args){
+		/*
+		 * Executar diretamente no terminal
+		 * javac MeuPrimeiroPrograma.java
+		 * java MeuPrimeiroPrograma Java Jose
+		*/
+		 //System.out.println("O primeiro de muitos códigos escritos em" + args[0] + " pelo " + args[1] + " ! " );
+		 System.out.println("O primeiro de muitos!");  
+	}
+```
+
 
 ##### IDE (Integrated Development Environment)
 

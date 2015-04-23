@@ -1,3 +1,5 @@
 #### 2 - Variáveis e tipos primitivos
 
-Projeto inicial - CalculadoraDeEstoque
+Resumo dos tópicos: 
+
+2.1 - Projeto inicial - CalculadoraDeEstoque

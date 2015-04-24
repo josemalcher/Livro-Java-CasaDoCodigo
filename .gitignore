@@ -1,2 +1,4 @@
 /RemoteSystemsTempFiles
 .metadata
+.git
+.gitignore

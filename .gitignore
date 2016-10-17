@@ -1,4 +1,13 @@
-/RemoteSystemsTempFiles
 .metadata
-.git
-.gitignore
+.recommenders
+RemoteSystemsTempFiles/
+
+CodigosCapLivro/bin
+CodigosCapLivro/.settings
+CodigosCapLivro/.classpath
+CodigosCapLivro/.project
+
+#bin
+#.settings
+#.classpath
+#.project

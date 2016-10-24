@@ -2,6 +2,11 @@
 .recommenders
 RemoteSystemsTempFiles/
 
+LivroCodigos/bin
+LivroCodigos/.settings
+LivroCodigos/.classpath
+LivroCodigos/.project
+
 #bin
 #.settings
 #.classpath

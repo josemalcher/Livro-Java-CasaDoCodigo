@@ -1,6 +1,7 @@
 package cap09.livraria.produtos;
 
 import cap09.livraria.Autor;
+import cap09.livraria.exception.AutorNuloException;
 
 public abstract class Livro implements Produto{
 
@@ -15,7 +16,13 @@ public abstract class Livro implements Produto{
 	private boolean impresso;
 	
 	
-	public Livro(cap09.livraria.Autor autor2) {
+	public Livro(Autor autor2) {
+	/*	if(autor == null){
+			throw new RuntimeException();
+		}*/
+		if(autor == null){
+			throw new AutorNuloException("O autor não pode ser nulo");
+		}
 		this.isbn = "000-00-00000-00-0";
 		this.autor = autor2;
 		this.impresso = true;

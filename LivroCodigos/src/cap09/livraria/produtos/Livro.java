@@ -16,7 +16,7 @@ public abstract class Livro implements Produto{
 	private boolean impresso;
 	
 	
-	public Livro(Autor autor2) {
+	public Livro(Autor autor) {
 	/*	if(autor == null){
 			throw new RuntimeException();
 		}*/
@@ -24,7 +24,7 @@ public abstract class Livro implements Produto{
 			throw new AutorNuloException("O autor não pode ser nulo");
 		}
 		this.isbn = "000-00-00000-00-0";
-		this.autor = autor2;
+		this.autor = autor;
 		this.impresso = true;
 	}
 

@@ -39,9 +39,9 @@ public class RegistroDeVendas {
 				System.out.println(produto.getValor());
 			}
 		}*/
-		for (int i = 0; i <= produtos.length; i++) {
+		for (int i = 0; i < produtos.length; i++) {
 			try{
-			Produto produto = produtos[i];
+				Produto produto = produtos[i];
 			if(produto != null){
 				System.out.println(produto.getValor());
 			}
@@ -52,11 +52,14 @@ public class RegistroDeVendas {
 			}catch(NullPointerException e){
 				System.out.println("Array não foi instanciado");
 				
-			}finally {
+			}/*finally {
 				System.out.println("Sempre executado");
-			}
+			}*/
 		}
 		System.out.println("Fui Executado!");
 		
+		
+		System.out.println("***--CAP 10--*****");
+		System.out.println(ebook);
 	}
 }

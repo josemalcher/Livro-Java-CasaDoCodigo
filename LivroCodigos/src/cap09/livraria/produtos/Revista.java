@@ -47,6 +47,15 @@ public class Revista implements Produto, Promocional{
 	public double getValor() {
 		return this.getValor();
 	}
-
+	
+	public int compareTo(Produto outro) {
+		if(this.getValor() < outro.getValor()){
+			return -1;
+		}
+		if(this.getValor() > outro.getValor()){
+			return 1;
+		}
+		return 0;
+	}
 
 }

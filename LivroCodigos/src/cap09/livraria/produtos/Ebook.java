@@ -44,5 +44,19 @@ public class Ebook extends Livro implements Promocional{
 	public String toString() {
 		return "Eu sou um ebook";
 	}
+
+
+	@Override
+	public int compareTo(Produto outro) {
+		if(this.getValor() < outro.getValor()){
+			return -1;
+		}
+		if(this.getValor() > outro.getValor()){
+			return 1;
+		}
+		return 0;
+	}
+	
+	
 	
 }

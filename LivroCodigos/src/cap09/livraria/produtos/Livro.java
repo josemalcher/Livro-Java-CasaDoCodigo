@@ -68,4 +68,9 @@ public abstract class Livro implements Produto{
 		this.nome = nome;
 	}
 	
+/*	solução para simplificar!
+ * public int compareTo(Produto outro){
+		return this.getValor() - outro.getValor();
+	}*/
+	
 }

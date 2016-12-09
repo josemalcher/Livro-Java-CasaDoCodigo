@@ -1,5 +1,7 @@
 package cap09.livraria.teste;
 
+import java.util.List;
+
 import cap09.livraria.Autor;
 import cap09.livraria.produtos.LivroFisico;
 import cap09.livraria.produtos.Ebook;
@@ -32,14 +34,15 @@ public class RegistroDeVendas {
 		}
 		System.out.println("*****");
 		
-		Produto[] produtos = carrinho.getProdutos();
+		//Produto[] produtos = carrinho.getProdutos();
+		List<Produto> produtos = carrinho.getProdutos();
 		/*for (int i = 0; i < produtos.length; i++) {
 			Produto produto = produtos[i];
 			if(produto != null){
 				System.out.println(produto.getValor());
 			}
 		}*/
-		for (int i = 0; i < produtos.length; i++) {
+		/*for (int i = 0; i < produtos.length; i++) {
 			try{
 				Produto produto = produtos[i];
 			if(produto != null){
@@ -52,9 +55,12 @@ public class RegistroDeVendas {
 			}catch(NullPointerException e){
 				System.out.println("Array não foi instanciado");
 				
-			}/*finally {
+			}finally {
 				System.out.println("Sempre executado");
-			}*/
+			}
+		}*/
+		for (Produto produto : produtos) {
+			System.out.println(produto);
 		}
 		System.out.println("Fui Executado!");
 		
